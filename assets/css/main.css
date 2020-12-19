@@ -52,7 +52,7 @@ nav,
 section,
 summary {
     display: block;
-}	
+}
 
 .container {
     max-width: 42em;
@@ -109,7 +109,7 @@ a.skip-main {
     z-index:-999;
 }
 
-a.skip-main:focus, 
+a.skip-main:focus,
 a.skip-main:active {
     left: auto;
     top: 0px;
@@ -215,6 +215,7 @@ header nav a {
 
 .site-title {
     white-space: nowrap;
+    font-variant: small-caps;
 }
 
 .common-header {
@@ -254,7 +255,7 @@ main h1 {
     margin-left: 2em;
 }
 
-.post-navigation a:hover, 
+.post-navigation a:hover,
 .post-navigation a:focus,
 .post-navigation a:active {
     color: var(--link-state-color);
@@ -395,7 +396,7 @@ article figcaption {
     display: flex;
     justify-content: space-between;
     margin-top: 3em;
-    text-align: center;   
+    text-align: center;
 }
 
 .pagination-item {
@@ -407,7 +408,7 @@ article figcaption {
     color: var(--pagination-link-color);
 }
 
-.pagination-item a:hover, 
+.pagination-item a:hover,
 .pagination-item a:focus {
     color: var(--link-state-color);
 }
@@ -460,6 +461,10 @@ ul.language-select > li, ul.footer-menu > li {
     font-size: 16px;
     border: none;
     margin-bottom: 1em;
+}
+
+.theme-switcher-container {
+    margin-right: 1em;
 }
 
 /* Media Queries */
