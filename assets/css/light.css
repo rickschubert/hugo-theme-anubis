@@ -1,5 +1,5 @@
 :root {
-   /* light.css */ 
+   /* light.css */
     --font-color: #333;
     --bg-color: #fff;
 
@@ -13,7 +13,7 @@
     --pre-color: #333;
     --pre-bg-color: #f1f1f1;
 
-    --bq-color: #ccc;
+    --bq-color: rgb(103, 190, 62);
     --hr-color: #ccc;
 
     --pagination-bg-color: #fafafa;
@@ -22,5 +22,5 @@
     --post-info-color: grey;
 
     --switcher-color: #fff;
-    --switcher-bg-color: #333; 
+    --switcher-bg-color: #333;
 }
