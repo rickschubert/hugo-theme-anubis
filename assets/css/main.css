@@ -533,3 +533,7 @@ ul.language-select > li, ul.footer-menu > li {
     max-height: 27em;
     padding: 0.4em 0em;
 }
+
+.rss-header img {
+    height: 1em;
+}
