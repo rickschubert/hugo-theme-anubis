@@ -1,8 +1,8 @@
-<h1 class="site-title">
-    <a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title }}</a>
-    <div class="theme-switcher-container">
-    </div>
-</h1>
-<nav>
+<div class="site-header">
+    <a href="/index.xml" class="rss-header">
+        <img src="/images/rss.svg" />
+    </a>
+    <a class="site-title" href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title }}</a>
     {{ partial "themeSwitcher.html" . }}
-</nav>
+</div>
+

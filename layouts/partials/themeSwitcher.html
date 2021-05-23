@@ -39,21 +39,20 @@
     function detectCurrentScheme() {
         if (localStorage.getItem(STORAGE_KEY)) {
             return localStorage.getItem(STORAGE_KEY)
-        } 
+        }
         if (defaultTheme) {
             return defaultTheme
-        } 
+        }
         if (!window.matchMedia) {
             return 'light'
-        } 
+        }
         if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
             return 'dark'
         }
         return 'light'
     }
 
-    function changeButtonText()
-    {   
+    function changeButtonText() {
         switchButton.textContent = currentTheme == 'dark' ?  {{ i18n "lightTheme" | humanize }} : {{ i18n "darkTheme" | humanize }}
     }
 
