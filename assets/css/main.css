@@ -523,3 +523,13 @@ ul.language-select > li, ul.footer-menu > li {
         max-width: 10em;
     }
 }
+
+.post-summary-heroimage img {
+    max-height: 18em;
+    padding: 0.4em 0em;
+}
+
+.post-heroimage img {
+    max-height: 27em;
+    padding: 0.4em 0em;
+}
