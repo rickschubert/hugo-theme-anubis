@@ -1,4 +1,7 @@
 <footer class="common-footer">
+    <a class="rss">
+        <img src="/images/rss.svg" /> RSS
+    </a>
     {{ $languagesCount := $.Site.Home.AllTranslations }}
     {{ if gt $languagesCount 1 }}
         {{ partial "languageSelect.html" . }}
