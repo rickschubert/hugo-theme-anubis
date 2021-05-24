@@ -8,10 +8,10 @@ readMore:
   other: "read more"
 
 toNewPosts:
-  other: "to new posts"
+  other: "newer posts"
 
 toOldPosts:
-  other: "to old posts"
+  other: "older posts"
 
 tag:
   other: "tag"
