@@ -218,6 +218,11 @@ header nav a {
     grid-template-columns: [first] 2em [middle] auto [right] 2em;
 }
 
+.site-header a:hover, a:active, a:focus {
+    color: var(--link-state-color);
+    border-bottom: 0px solid var(--link-state-border-color);
+}
+
 .site-title {
     text-align: center;
     padding-right: 0.5em;
