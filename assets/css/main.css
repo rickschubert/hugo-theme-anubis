@@ -208,20 +208,14 @@ header nav a {
     margin-left: 2em;
 }
 
-.site-header {
-    padding-top: 1em;
-    display: grid;
-    grid-template-columns: [first] 2em [middle] auto [right] 2em;
-    /* margin-top: 1em; */
-    /* margin-bottom: 0; */
-    /* display: flex; */
-    /* flex-wrap: nowrap; */
-    /* justify-content: center; */
-    /* align-items: stretch; */
-}
-
 .rss img {
     height: 0.8em;
+}
+
+.site-header {
+    padding-top: 1.2em;
+    display: grid;
+    grid-template-columns: [first] 2em [middle] auto [right] 2em;
 }
 
 .site-title {
@@ -229,32 +223,19 @@ header nav a {
     padding-right: 0.5em;
     grid-column-start: first;
     grid-column-end: right;
-    /* flex: 8 0 0; */
-    /* flex-grow: 4; */
-    /* font-size: 1em; */
-    /* width: 100%; */
-    /* justify-content: center; */
     font-weight: normal;
-    /* overflow: hidden; */
-    /* width: auto; */
-    /* float: middle; */
-    /* text-align: center; */
-    /* white-space: nowrap; */
     font-variant: small-caps;
-    /* max-width: 100%; */
+    margin-left: 2em;
 }
 
 .theme-switcher {
-    /* flex-grow: 1; */
-    /* flex: 1 0 0; */
     color: var(--switcher-color);
     background: var(--switcher-bg-color);
-    /* font-size: 16px; */
     border: none;
 }
 
 .common-header {
-    padding-bottom: 1em;
+    padding-bottom: 1.2em;
     border-bottom: thin solid var(--hr-color);
 }
 
