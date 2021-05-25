@@ -237,6 +237,7 @@ header nav a {
     color: var(--switcher-color);
     background: var(--switcher-bg-color);
     border: none;
+    padding: 0.3em;
 }
 
 .common-header {
