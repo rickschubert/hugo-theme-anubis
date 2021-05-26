@@ -2,3 +2,7 @@
     <a class="site-title" href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title }}</a>
     {{ partial "themeSwitcher.html" . }}
 </div>
+
+{{ if .Site.Home }}
+    I'm Rick, live in London (United Kingdom) and write about all things
+{{ end }}
